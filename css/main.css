@@ -1,0 +1,117 @@
+body {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* Header Section */
+/*                */
+/*                */
+.header-container {
+  position: fixed;
+  width: 100%;
+  height: 96px;
+
+  z-index: 100;
+  left: 0;
+  top: 0;
+
+  background: #ffffff;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  position: absolute;
+  left: 152px;
+  top: 26px;
+  width: 126px;
+  height: 43px;
+}
+
+.rsvp {
+  position: absolute;
+  right: 152px;
+  top: 28px;
+  width: 174px;
+  height: 44px;
+
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+
+  font-family: Open Sans;
+  font-size: 20px;
+}
+
+/*  Body Section  */
+/*                */
+/*                */
+.upper-bg {
+  position: absolute;
+  width: 62%;
+  height: 571.28px;
+  z-index: 1;
+  left: 0;
+  top: 0;
+}
+
+.upper-img {
+  position: absolute;
+  width: 50%;
+  z-index: 2;
+  left: 5.9%;
+  top: 166px;
+}
+
+.dots-header-img {
+  position: relative;
+  width: 66px;
+  height: 114px;
+  left: 5%;
+  top: 0;
+}
+
+.header-img-bg {
+  position: absolute;
+  width: 114px;
+  height: 66px;
+  right: 9%;
+  top: 190px;
+}
+
+.upper-text {
+  position: absolute;
+  z-index: 3;
+  right: 10.5%;
+  top: 229px;
+
+  width: 37.3%;
+  padding: 50px;
+  background: #ffffff;
+  box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+
+.upper-text h2 {
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 114.69%;
+  letter-spacing: -0.025em;
+  color: #273661;
+
+  margin-bottom: 20px;
+}
+
+.upper-text h3 {
+  font-family: open sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 168.19%;
+  /* or 37px */
+
+  color: #303030;
+}
