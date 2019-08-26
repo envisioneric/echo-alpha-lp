@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
@@ -15,19 +15,19 @@ body {
 
 @media only screen and (min-width: 768px) {
   h1 {
-    font-family: "Spectral";
+    font-family: "Spectral", serif;
     font-size: 48px;
     font-weight: 600;
   }
 
   h2 {
-    font-family: "Spectral";
+    font-family: "Spectral", serif;
     font-size: 32px;
     font-weight: 600;
   }
 
   h3 {
-    font-family: "Spectral";
+    font-family: "Spectral", serif;
     font-size: 28px;
     font-weight: 600;
   }
@@ -45,19 +45,19 @@ body {
 
 @media only screen and (max-width: 767px) {
   h1 {
-    font-family: "Spectral";
+    font-family: "Spectral", serif;
     font-size: 28px;
     font-weight: 600;
   }
 
   h2 {
-    font-family: "Spectral";
+    font-family: "Spectral", serif;
     font-size: 28px;
     font-weight: 600;
   }
 
   h3 {
-    font-family: "Spectral";
+    font-family: "Spectral", serif;
     font-size: 28px;
     font-weight: 600;
   }
@@ -120,17 +120,16 @@ body {
 /*                */
 /*                */
 
-
 @media only screen and (min-width: 768px) {
   .header-container {
     position: fixed;
     width: 100%;
     height: 96px;
-  
+
     z-index: 100;
     left: 0;
     top: 0;
-  
+
     background: #ffffff;
     box-shadow: 0 2px 16px rgba(0, 0, 0, 0.15);
   }
@@ -149,12 +148,12 @@ body {
     top: 28px;
     width: 174px;
     height: 44px;
-  
+
     background-color: blue;
     color: white;
     border: none;
     border-radius: 5px;
-  
+
     font-family: Open Sans;
     font-size: 20px;
   }
@@ -165,11 +164,11 @@ body {
     position: fixed;
     width: 100%;
     height: 64px;
-  
+
     z-index: 100;
     left: 0;
     top: 0;
-  
+
     background: #ffffff;
     box-shadow: 0 2px 16px rgba(0, 0, 0, 0.15);
   }
@@ -188,12 +187,12 @@ body {
     top: 16px;
     width: 96px;
     height: 32px;
-  
+
     background-color: blue;
     color: white;
     border: none;
     border-radius: 5px;
-  
+
     font-family: Open Sans;
     font-size: 20px;
   }
@@ -207,7 +206,7 @@ body {
     position: relative;
     height: 1300px;
   }
-  
+
   .upper-bg {
     position: relative;
     width: 62%;
@@ -216,7 +215,7 @@ body {
     left: 0;
     top: 0;
   }
-  
+
   .upper-img {
     position: absolute;
     width: 49.3%;
@@ -224,7 +223,7 @@ body {
     left: 5.9%;
     top: 166px;
   }
-  
+
   .dots-header-img {
     position: relative;
     width: 66px;
@@ -232,7 +231,7 @@ body {
     left: 5%;
     top: 0;
   }
-  
+
   .header-img-bg {
     position: absolute;
     width: 114px;
@@ -240,28 +239,28 @@ body {
     right: 9%;
     top: 190px;
   }
-  
+
   .upper-text {
     position: absolute;
     z-index: 3;
     right: 10.6%;
     top: 229px;
-  
+
     width: 37.3%;
     padding: 50px;
     background: #ffffff;
     box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.2);
     border-radius: 2px;
   }
-  
+
   .upper-text h1 {
     margin-bottom: 20px;
   }
-  
+
   .upper-text h4 {
     color: #303030;
   }
-  
+
   .lower-bg {
     position: absolute;
     width: 42%;
@@ -270,7 +269,7 @@ body {
     right: 0;
     top: 574px;
   }
-  
+
   .lower-img {
     position: absolute;
     width: 31.8%;
@@ -278,21 +277,21 @@ body {
     right: 12.6%;
     top: 793px;
   }
-  
+
   .lower-header {
     position: absolute;
     width: 31.8%;
     left: 12.7%;
     top: 811px;
   }
-  
+
   .lower-icon {
     position: absolute;
     width: 18.2%;
     left: 11.6%;
     top: 863px;
   }
-  
+
   .lower-text {
     position: absolute;
     width: 30.5%;
@@ -305,14 +304,14 @@ body {
   .upper-container {
     position: relative;
   }
-  
+
   .upper-bg {
     position: absolute;
     width: 100%;
     z-index: 1;
     top: 45px;
   }
-  
+
   .upper-img {
     position: relative;
     width: 79.3%;
@@ -320,59 +319,59 @@ body {
     top: 41px;
     margin: 0 auto;
   }
-  
+
   .dots-header-img {
     display: none;
   }
-  
+
   .header-img-bg {
     position: relative;
     width: 14%;
     left: 82.7%;
     top: 12px;
   }
-  
+
   .upper-text {
     position: relative;
     z-index: 3;
     top: 20px;
     margin: 0 auto;
-  
+
     width: 89.3%;
     padding: 20px;
     background: #ffffff;
     box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.2);
     border-radius: 2px;
   }
-  
+
   .upper-text h1 {
     margin-bottom: 20px;
   }
-  
+
   .upper-text h4 {
     color: #303030;
   }
-  
+
   .lower-bg {
     display: none;
   }
-  
+
   .lower-img {
     display: none;
   }
-  
+
   .lower-header {
     position: relative;
     text-align: center;
     margin-top: 50px;
   }
-  
+
   .lower-icon {
     position: relative;
     width: 62.5%;
     margin: 0 auto;
   }
-  
+
   .lower-text {
     position: relative;
     margin: 30px 20px 0;
@@ -579,8 +578,8 @@ body {
 .map-section {
   width: 100%;
   margin-top: 50px;
-  background: #EDEDED;
-  border-bottom: 5px solid #FA6E65;
+  background: #ededed;
+  border-bottom: 5px solid #fa6e65;
 }
 
 .map-container {
@@ -643,12 +642,12 @@ body {
   position: absolute;
   top: -50px;
   left: -50px;
-  z-index:-1;
+  z-index: -1;
 }
 
 @media only screen and (max-width: 767px) {
   .signUp-bg {
-    display: none
+    display: none;
   }
   .signUp-img-bg {
     display: none;
