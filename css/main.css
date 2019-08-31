@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Spectral&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
 html {
   scroll-behavior: smooth;
 }
@@ -8,7 +11,6 @@ body {
   font-style: normal;
   font-weight: normal;
 
-  max-width: 1440px;
   margin: auto;
   position: relative;
 }
@@ -18,18 +20,24 @@ body {
     font-family: "Spectral", serif;
     font-size: 48px;
     font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 1.1em;
   }
 
   h2 {
     font-family: "Spectral", serif;
     font-size: 32px;
     font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 1.1em;
   }
 
   h3 {
     font-family: "Spectral", serif;
     font-size: 28px;
     font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 1.1em;
   }
 
   h4 {
@@ -48,18 +56,24 @@ body {
     font-family: "Spectral", serif;
     font-size: 28px;
     font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 1.1em;
   }
 
   h2 {
     font-family: "Spectral", serif;
     font-size: 28px;
     font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 1.1em;
   }
 
   h3 {
     font-family: "Spectral", serif;
     font-size: 28px;
     font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 1.1em;
   }
 
   h4 {
@@ -149,10 +163,10 @@ body {
     width: 174px;
     height: 44px;
 
-    background-color: blue;
+    background-color: #124bdd;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 2px;
 
     font-family: Open Sans;
     font-size: 20px;
@@ -201,7 +215,105 @@ body {
 /*  Body Section  */
 /*                */
 /*                */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1550px) {
+  .upper-container {
+    position: relative;
+    height: 1500px;
+  }
+
+  .upper-bg {
+    position: relative;
+    width: 62%;
+    height: 571.28px;
+    z-index: 1;
+    left: 0;
+    top: 0;
+  }
+
+  .upper-img {
+    position: absolute;
+    width: 49.3%;
+    z-index: 2;
+    left: 5.9%;
+    top: 166px;
+  }
+
+  .dots-header-img {
+    position: relative;
+    width: 66px;
+    height: 114px;
+    left: 5%;
+    top: 0;
+  }
+
+  .header-img-bg {
+    position: absolute;
+    width: 114px;
+    height: 66px;
+    right: 9%;
+    top: 190px;
+  }
+
+  .upper-text {
+    position: absolute;
+    z-index: 3;
+    right: 10.6%;
+    top: 229px;
+
+    width: 37.3%;
+    padding: 50px;
+    background: #ffffff;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+  }
+
+  .upper-text h1 {
+    margin-bottom: 20px;
+  }
+
+  .upper-text h4 {
+    color: #303030;
+  }
+
+  .lower-bg {
+    position: absolute;
+    width: 42%;
+    height: 660px;
+    z-index: 0;
+    right: 0;
+    top: 574px;
+  }
+
+  .lower-img {
+    position: absolute;
+    width: 31.8%;
+    z-index: 2;
+    right: 12.6%;
+    top: 793px;
+  }
+
+  .lower-header {
+    position: absolute;
+    width: 31.8%;
+    left: 12.7%;
+    top: 811px;
+  }
+
+  .lower-icon {
+    position: absolute;
+    width: 18.2%;
+    left: 11.6%;
+    top: 863px;
+  }
+
+  .lower-text {
+    position: absolute;
+    width: 30.5%;
+    left: 12.7%;
+    top: 934px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1549px) {
   .upper-container {
     position: relative;
     height: 1300px;
@@ -265,7 +377,7 @@ body {
     position: absolute;
     width: 42%;
     height: 660px;
-    z-index: 1;
+    z-index: 0;
     right: 0;
     top: 574px;
   }
@@ -430,7 +542,6 @@ body {
 /*                    */
 .activities-container {
   position: relative;
-  max-width: 1440px;
   top: 25px;
   background-color: #effaff;
   padding: 50px;
@@ -589,7 +700,7 @@ body {
 
 @media only screen and (min-width: 1440px) {
   .location-info {
-    padding: 75px 100px 0 175px;
+    padding: 75px 100px 50px 175px;
   }
 }
 
@@ -602,6 +713,9 @@ body {
 @media only screen and (min-width: 768px) {
   .location-header-1 {
     display: none;
+  }
+  .map-padding {
+    padding-right: 0;
   }
 }
 
@@ -617,6 +731,10 @@ body {
 
   .location-header-2 {
     display: none;
+  }
+
+  .map-padding {
+    padding-right: 15px;
   }
 }
 
