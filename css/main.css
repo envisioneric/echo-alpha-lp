@@ -66,6 +66,7 @@ body {
     font-weight: 600;
     letter-spacing: -0.025em;
     line-height: 1.1em;
+    text-align: center;
   }
 
   h3 {
@@ -90,6 +91,10 @@ body {
     font-size: 14px;
     line-height: 22px;
   }
+}
+
+.pt-75 {
+  padding-top: 75px;
 }
 
 .mt-25 {
@@ -218,7 +223,7 @@ body {
 @media only screen and (min-width: 1550px) {
   .upper-container {
     position: relative;
-    height: 1500px;
+    height: 1600px;
   }
 
   .upper-bg {
@@ -281,7 +286,7 @@ body {
     height: 660px;
     z-index: 0;
     right: 0;
-    top: 574px;
+    top: 674px;
   }
 
   .lower-img {
@@ -289,28 +294,28 @@ body {
     width: 31.8%;
     z-index: 2;
     right: 12.6%;
-    top: 793px;
+    top: 893px;
   }
 
   .lower-header {
     position: absolute;
     width: 31.8%;
     left: 12.7%;
-    top: 811px;
+    top: 911px;
   }
 
   .lower-icon {
     position: absolute;
     width: 18.2%;
     left: 11.6%;
-    top: 863px;
+    top: 963px;
   }
 
   .lower-text {
     position: absolute;
     width: 30.5%;
     left: 12.7%;
-    top: 934px;
+    top: 1034px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1549px) {
@@ -644,7 +649,7 @@ body {
 
   .testimonial-1 {
     display: block;
-    width: 109px;
+    width: 60%;
     margin: 0 auto;
   }
 
@@ -658,7 +663,7 @@ body {
 
   .testimonial-2 {
     display: block;
-    width: 109px;
+    width: 60%;
     margin: 0 auto;
   }
 
@@ -700,7 +705,7 @@ body {
 
 @media only screen and (min-width: 1440px) {
   .location-info {
-    padding: 75px 100px 50px 175px;
+    padding: 75px 100px 100px 175px;
   }
 }
 
@@ -735,6 +740,10 @@ body {
 
   .map-padding {
     padding-right: 15px;
+  }
+
+  #map {
+    height: 200px;
   }
 }
 
